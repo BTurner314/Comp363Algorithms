@@ -3,15 +3,15 @@ def encode(string):
 	
 	for x in string:
 		if x=='b':
-			encodedString = encodedString + '001'
+			encodedString = encodedString + '1'
 		elif x=='e':
-			encodedString = encodedString + '000'
+			encodedString = encodedString + '0'
 		elif x=='k':
-			encodedString = encodedString + '100'
+			encodedString = encodedString + '00'
 		elif x=='p':
-			encodedString = encodedString + '010'
+			encodedString = encodedString + '10'
 		elif x=='r':
-			encodedString = encodedString + '011'
+			encodedString = encodedString + '01'
 		
 		encodedString = encodedString + ' '
 
